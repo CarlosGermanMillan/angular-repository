@@ -1,0 +1,7 @@
+<h1>{{title}}</h1>
+@defer  {
+  <app-async/>
+} @placeholder (minimum 500ms){
+  <p>Esto tarda mucho en cargar</p>
+}
+<router-outlet/>
