@@ -4,6 +4,6 @@ This repository aims to implement Angular skills to improve my knowledge.
 
 ## ⌨️ Proyectos de Angular con código
 
-| Número | Proyecto | Código |
-| --- | --- | --- | --- |
-| `01` | Angular Interview | [Ver](projects/01-interview-angular) |
+| Number             | Project                         | Code 
+| ----------------- | -------------------------------- | --------------------- |
+| `01` | Twitter Follow Card         | [Ver](projects/01-twitter-follow-card/) |
