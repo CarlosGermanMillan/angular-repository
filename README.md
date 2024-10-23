@@ -1,4 +1,4 @@
-# angular-repository# Angular Projects
+# Angular Projects
 
 This repository aims to implement Angular skills to improve my knowledge.
 
@@ -6,4 +6,4 @@ This repository aims to implement Angular skills to improve my knowledge.
 
 | Number             | Project                         | Code 
 | ----------------- | -------------------------------- | --------------------- |
-| `01` | Twitter Follow Card         | [Ver](projects/01-twitter-follow-card/) |
+| `01` | Angular Interview         | [Ver](projects/01-interview-angular/) |
