@@ -1,0 +1,8 @@
+<a 
+    [href]="socialMediaItem.link"
+    target="_blank"
+    class="social-media-element"
+    [matTooltip] = "socialMediaItem.name"
+>
+    <img width="50" height="50" [ngSrc]="socialMediaItem.imgPath" [alt]="socialMediaItem.name" />
+</a>
