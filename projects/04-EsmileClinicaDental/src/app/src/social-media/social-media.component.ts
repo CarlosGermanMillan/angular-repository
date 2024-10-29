@@ -1,13 +1,16 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { SocialMediaElementComponent } from './social-media-element/social-media-element.component';
 import { SocialMediaElement } from './models';
-import { MainContainerComponent } from '../layout';
-import { WobbleDirective } from '../directives/animations';
+import { MainContainerComponent, WobbleDirective } from '../components';
 
 @Component({
   selector: 'app-social-media',
   standalone: true,
-  imports: [SocialMediaElementComponent, MainContainerComponent, WobbleDirective],
+  imports: [
+    SocialMediaElementComponent, 
+    MainContainerComponent, 
+    WobbleDirective
+  ],
   templateUrl: './social-media.component.html',
   styleUrl: './social-media.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush

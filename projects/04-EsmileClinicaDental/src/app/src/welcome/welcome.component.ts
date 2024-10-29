@@ -1,6 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { MainContainerComponent } from '../layout';
-import { FadeInDirective } from '../directives/animations';
+import { FadeInDirective, MainContainerComponent } from '../components';
 
 @Component({
   selector: 'app-welcome',
