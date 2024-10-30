@@ -48,7 +48,7 @@ export class CharacterService {
     ).subscribe(result => {
       this.state.update(state => {
         state.characters.set(character.id,character)
-        return state;
+        return {...state};
       })
     })
   }
@@ -63,7 +63,7 @@ export class CharacterService {
       _result => {
         this.state.update(state => {
           state.characters.delete(characterId)
-          return state;
+          return {...state};
         })
       }
     )
@@ -79,7 +79,7 @@ export class CharacterService {
       _result => {
         this.state.update(state => {
           state.characters.set(character.id,character);
-          return state;
+          return {...state};
         })
       }
     )
