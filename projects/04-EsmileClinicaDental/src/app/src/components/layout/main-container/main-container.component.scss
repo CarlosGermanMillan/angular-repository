@@ -1,0 +1,11 @@
+.main-container {
+    display: flex;
+    gap: 2rem;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1 rem;
+    height: 60vh;
+    min-height: 300px;
+}
