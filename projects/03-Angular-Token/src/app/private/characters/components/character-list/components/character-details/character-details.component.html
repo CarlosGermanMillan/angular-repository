@@ -1,0 +1,8 @@
+<div>
+    @let characterDetail = character();
+
+    <b>{{characterDetail.name}}</b>
+    <p>{{characterDetail.status}}</p>
+
+    <button (click)="deleteCharacter(characterDetail.id)">Delete</button>
+</div>
